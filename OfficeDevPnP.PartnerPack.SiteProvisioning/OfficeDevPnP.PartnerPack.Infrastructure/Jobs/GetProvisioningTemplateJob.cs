@@ -48,6 +48,11 @@ namespace OfficeDevPnP.PartnerPack.Infrastructure.Jobs
         public Boolean PersistComposedLookFiles { get; set; }
 
         /// <summary>
+        /// Defines whether to persist the composed look files during extraction of the Provisioning Template
+        /// </summary>
+        public Boolean PersistLocalComposedLookFiles { get; set; }
+
+        /// <summary>
         /// Defines the Source Site URL of the Provisioning Template
         /// </summary>
         public String SourceSiteUrl { get; set; }
